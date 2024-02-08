@@ -23,4 +23,4 @@ jobs:
                   #   See https://github.com/marketplace/actions/github-app-token.
                   # - a personal access token
                   #   See https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line.
-                  github_token: ${{ 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 }}
+                  github_token: ${{ secrets.AUTOREBASE_TOKEN }}
